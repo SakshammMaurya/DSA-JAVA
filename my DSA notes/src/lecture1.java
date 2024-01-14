@@ -7,7 +7,8 @@ public class lecture1 {
         while(j-->0){
             int n= sc.nextInt();
             int p=  sc.nextInt();
-            System.out.println(n*p);
+            if(n>=p) System.out.println(n);
+            else System.out.println(p);
         }
 
     }
